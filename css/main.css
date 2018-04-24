@@ -1,0 +1,107 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+.container{
+	margin: 0 auto;
+	width: 1080px;
+}
+header {
+	background: url(../media/bg_image.jpg) no-repeat center top / cover;
+	
+}
+
+
+.logo {
+	margin-top: 5px;
+	margin-left: 20px;
+	float: left;
+	font-size: 14px
+}
+
+nav {
+	float: right;
+	margin-top: 45px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a {
+	color: #272822;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 5px;
+
+}
+
+.menu  a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    background: #5C141A;
+	color: #E9C882;
+   }
+
+.titles {
+	margin-top: 215px;
+	margin-right: 20px;
+}
+.button {
+	background: #5C141A;
+	color: #E9C882;
+	border-radius: 8px;
+	display: block;
+	width: 200px;
+	padding: 20px 0;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 50px;
+}
+
+footer{
+	background: #FEECC4;
+	display: block;
+	height: 10vh;
+	padding: 0;
+	margin:0;
+	font-size:  10px;
+}
+footer a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #272822;
+}
+input[type="text"],input[type="password"], input[type="email"]{
+ width: 300px;
+ height:50px;
+ font-size: 18px;
+ margin-bottom: 25px;
+ border-radius: 10px;
+ padding-left: 10px;
+ margin: auto ;
+}    

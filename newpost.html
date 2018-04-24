@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Оформлення замовлення</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body bgcolor="#f7f7f7">
+	<form action="price.html" method="post" id="reply">
+                        <fieldset > 
+                        <div style="margin-left: 50px;"> 
+                            <div class="legend" align="center">
+                            	<h2>Оформлення Замовлення</h2>
+                            </div>
+                            <div class="form_row">
+                                <div class="form_property form_required">
+                                    <label for="name"> Ваші Ініціали:</label>
+                                </div>
+                                <div class="form_value">
+                                    <input type="text" size="32" name="name" value="" class="text" id="name" placeholder="Ім'я Прізвище" required="Заповніть будь-ласка поле!/>
+                                </div>
+                                <div class="clearer">&nbsp;</div>
+                            </div>
+
+
+                             <div class="form_row">
+                                <div class="form_property form_required">
+                                    <label for="name"> Адреса доставки: </label>
+                                </div>
+                                <div class="form_value">
+                                    <input type="text" size="32" name="street" value="" class="text" id="name" placeholder="Місто, вулиця, будинок" required="Заповніть будь-ласка поле!/>
+                                </div>
+                                <div class="clearer">&nbsp;</div>
+                            </div>
+
+
+                            <div class="form_row">
+                                <div class="form_property">
+                                    <label for="email">Ваш email:</label>
+                                </div>
+                                <div class="form_value">
+                                    <input type="email" size="32" name="email" value="" class="text" id="email" placeholder="Наприклад: kor@mail.com"; required="Заповніть будь-ласка поле!/>
+                                </div>
+                                <div class="clearer">&nbsp;</div>
+                            </div>
+
+
+                            <div class="form_row">
+								<label for="stat">Виберіть спосіб доставки:</label>
+							</div>
+                            <div class="stt">
+								<input type="radio" name="stat" value="a1">Нова пошта
+								<input type="radio" name="stat" value="a2">Кур'єрська доставка
+								<input type="radio" name="stat" value="a3">Укр пошта
+							</div>
+
+							 <div class="form_row">
+                                <div class="form_property form_required">
+                                    <label for="name"> Номер замовлення: </label>
+                                </div>
+                                <div class="form_value">
+                                    <input type="text" size="32" name="number" value="" class="text" id="name" placeholder="Наприклад: 6666" required="Заповніть будь-ласка поле!/>
+                                </div>
+                                <div class="clearer">&nbsp;</div>
+                            </div>
+
+                            <div class="form_row">
+                                <div class="form_property form_required">
+                                    <label for="comment">Уточнення замовлення:</label>
+                                </div>
+                                <div class="form_value">
+                                    <textarea rows="10" cols="46" name="text" placeholder="Введіть текст повідомлення тут!" id="comment"></textarea>
+                                </div>
+                                <div class="clearer">&nbsp;</div>
+                            </div>
+
+
+                            <div class="form_row form_row_submit">
+                                <div class="form_value">
+                                    <input type="submit" class="button" value="Підтвердити замовлення" />
+                                </div>
+                                <div class="clearer">&nbsp;</div>
+                            </div>
+                            </div>
+                        </fieldset>
+                    </form>
+</body>
+</html>
